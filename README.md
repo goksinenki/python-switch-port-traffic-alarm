@@ -32,10 +32,15 @@ smtplib, xlsxwriter, csv, openpyxl
 For example:
 
 pip install openpyxl
+pip install paramiko 
+
+Please look at http://www.paramiko.org/installing.html if you have problems with installing modules
 
 Open ip.txt and replace hostnames and ip addresses with your network device information. Open monitor.py and replace the required e-mail addresses with your information.
 
-Then, execute monitor.py
+Then, execute traffic.py
+
+python traffic.py
 
 If you like you can schedule that script before the production time (Sunday nights) to be sure that all critical devices are up at production time.
 
